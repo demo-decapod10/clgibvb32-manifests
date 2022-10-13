@@ -33,8 +33,8 @@ spec:
       - name: kibana
         resources:
           limits:
-            memory: "8Gi"
-            cpu: 4
+            memory: "2Gi"
+            cpu: 1
         readinessProbe:
           failureThreshold: 3
           httpGet:
